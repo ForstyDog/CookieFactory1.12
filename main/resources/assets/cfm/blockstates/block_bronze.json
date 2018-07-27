@@ -1,0 +1,6 @@
+{
+    "variants": 
+    {
+        "normal": { "model": "cfm:block_bronze" }
+    }
+}
