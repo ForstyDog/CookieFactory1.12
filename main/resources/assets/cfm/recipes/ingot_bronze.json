@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped", 
+	
+	"pattern":
+	[
+		"B"
+	],
+	
+	"key":
+	{
+		"B":
+		{
+			"item": "cfm:block_bronze"
+		}
+	},
+	
+	"result":
+	{
+		"item": "cfm:ingot_bronze",
+		"count": 9
+	}
+}

@@ -1,0 +1,13 @@
+{
+    "variants":
+    {
+        "burning=false,facing=north": { "model": "cfm:baking_oven" },
+        "burning=false,facing=east": { "model": "cfm:baking_oven", "y": 90 },
+        "burning=false,facing=south": { "model": "cfm:baking_oven", "y": 180 },
+        "burning=false,facing=west": { "model": "cfm:baking_oven", "y": 270 },
+        "burning=true,facing=north": { "model": "cfm:lit_baking_oven" },
+        "burning=true,facing=east": { "model": "cfm:lit_baking_oven", "y": 90 },
+        "burning=true,facing=south": { "model": "cfm:lit_baking_oven", "y": 180 },
+        "burning=true,facing=west": { "model": "cfm:lit_baking_oven", "y": 270 }
+    }   
+}

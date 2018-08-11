@@ -1,4 +1,4 @@
-package frosty.cookiefactorymod.utils;
+package frosty.cookiefactorymod.utils.interfaces;
 
 public interface IHasModel {
 

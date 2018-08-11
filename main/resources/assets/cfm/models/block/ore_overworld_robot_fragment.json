@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "cfm:blocks/ore_overworld_robot_fragment"
+    }
+}

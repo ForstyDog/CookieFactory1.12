@@ -1,7 +1,7 @@
 {
     "variants":
     {
-        "variant=aluminium": { "model": "tm:ore_nether_aluminium" },
-        "variant=copper": { "model": "tm:ore_nether_copper" }
+        "variant=bronze": { "model": "cfm:ore_nether_bronze" },
+        "variant=robot_fragment": { "model": "cfm:ore_nether_robot_fragment" }
     }
 }

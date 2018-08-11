@@ -8,4 +8,5 @@ public class Reference {
 	public static final String CLIENT = "frosty.cookiefactorymod.proxy.ClientProxy";
 	public static final String COMMON = "frosty.cookiefactorymod.proxy.CommonProxy";
 
+	public static final int GUI_BAKING_OVEN = 0;
 }

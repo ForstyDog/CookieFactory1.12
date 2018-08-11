@@ -2,6 +2,8 @@ package frosty.cookiefactorymod;
 
 import frosty.cookiefactorymod.proxy.CommonProxy;
 import frosty.cookiefactorymod.utils.Reference;
+import frosty.cookiefactorymod.utils.handlers.RegistryHandler;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -19,18 +21,12 @@ public class Main {
 	@SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
 	public static CommonProxy proxy;
 	
-	@EventHandler
-	public void preInit(FMLPreInitializationEvent event) {
-		
-	}
+	public static final CreativeTabs COOKIEFACTORY = new CookieFactroyTab("cookiefactorytab");
 	
 	@EventHandler
-	public void init(FMLInitializationEvent event) {
-		
-	}
-	
+	public static void preInit(FMLPreInitializationEvent event) {RegistryHandler.preInitRegistries();}
 	@EventHandler
-	public void postInit(FMLPostInitializationEvent event) {
-		
-	}
+	public static void init(FMLInitializationEvent event) {RegistryHandler.initRegistries();}
+	@EventHandler
+	public static void postInit(FMLPostInitializationEvent event) {RegistryHandler.postInitRegistries();}
 }

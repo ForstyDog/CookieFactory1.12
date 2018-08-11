@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "cfm:blocks/ore_nether_bronze"
+    }
+}

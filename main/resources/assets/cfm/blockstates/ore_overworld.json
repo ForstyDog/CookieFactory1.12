@@ -1,7 +1,7 @@
 {
     "variants":
     {
-        "variant=aluminium": { "model": "tm:ore_overworld_aluminium" },
-        "variant=copper": { "model": "tm:ore_overworld_copper" }
+        "variant=bronze": { "model": "cfm:ore_overworld_bronze" },
+        "variant=robot_fragment": { "model": "cfm:ore_overworld_robot_fragment" }
     }
 }

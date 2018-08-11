@@ -1,1 +1,19 @@
+itemGroup.cookiefactorytab=Cookie Factory
+
+container.baking_oven=Baking Oven
+
 item.ingot_bronze.name=Bronze Ingot
+item.fragment_robot.name=Robot Fragment
+item.butter.name=Butter
+item.butter_cacoa.name=Cocoa Butter
+
+tile.block_bronze.name=Bronze Block
+
+tile.ore_overworld_bronze.name=Bronze Ore
+tile.ore_overworld_robot_fragment.name=Robot Fragment Ore
+tile.ore_nether_bronze.name=Nether Bronze Ore
+tile.ore_nether_robot_fragment.name=Nether Robot Fragment Ore
+tile.ore_end_bronze.name=End Bronze Ore
+tile.ore_end_robot_fragment.name=End Robot Fragment Ore
+
+tile.baking_oven.name=Baking Oven
